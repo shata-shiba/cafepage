@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: gray;
+}
+
+h1 {
+  padding: 0 50px;
+  font-size: 30px;
+  color: white;
+}
+
+.header-menu {
+  justify-content: space-around;
+  margin: 0 30px;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+}
