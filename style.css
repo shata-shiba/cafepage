@@ -9,11 +9,11 @@ header {
   height: 80px;
   width: 100%;
   background-color: gray;
+  padding: 0 50px;
 }
 
 h1,h2,h3,h4 {
   font-size: 36px;
-  padding: 0 50px;
 }
 
 h1 {
@@ -43,7 +43,43 @@ li {
   height: 400px;
 }
 
+.view {
+  text-align: right;
+  margin: 10px;
+}
+
 p {
   font-size: 20px;
   margin: 0 auto;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.main {
+  width: 650px;
+  height: 450px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.prf {
+  width: 420px;
+
+}
+
+.man {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.pic {
+  width: 420px;
+  height: 300px;
+  margin: 30px 0;
 }
