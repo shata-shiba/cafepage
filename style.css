@@ -11,19 +11,39 @@ header {
   background-color: gray;
 }
 
-h1 {
+h1,h2,h3,h4 {
+  font-size: 36px;
   padding: 0 50px;
-  font-size: 30px;
+}
+
+h1 {
   color: white;
 }
 
 .header-menu {
   justify-content: space-around;
-  margin: 0 30px;
+  margin: 0 50px;
   color: white;
 }
 
 li {
   display: inline;
+  font-size: 20px;
   padding: 0 10px;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.contents {
+  width: 550px;
+  height: 400px;
+}
+
+p {
+  font-size: 20px;
+  margin: 0 auto;
 }
