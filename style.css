@@ -7,22 +7,22 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  width: 100%;
+  width: 100vw;
   background-color: gray;
-  padding: 0 50px;
+  padding: 0 3vw;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
   font-size: 36px;
 }
 
-h1 {
+h1,h5,span {
   color: white;
 }
 
 .header-menu {
   justify-content: space-around;
-  margin: 0 50px;
+  margin: 0 3vw;
   color: white;
 }
 
@@ -32,15 +32,19 @@ li {
   padding: 0 10px;
 }
 
+h2 {
+  padding-left: 3vw;
+}
+
 .news {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 3vw;
 }
 
 .contents {
-  width: 550px;
-  height: 400px;
+  width: 30vw;
+  height: 30vh;
 }
 
 .view {
@@ -55,31 +59,72 @@ p {
 
 .introduction {
   display: flex;
-  justify-content: space-between;
   padding: 0 50px;
+  justify-content: space-between;
 }
 
 .main {
-  width: 650px;
-  height: 450px;
+  width: 35vw;
+  height: 25vw;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .prf {
-  width: 420px;
-
+  width: 20vw;
+  font-size: 15px;
 }
 
 .man {
-  width: 250px;
-  height: 250px;
+  width: 10vw;
+  height: 10vw;
   display: block;
   margin: 0 auto 30px;
 }
 
 .pic {
-  width: 420px;
-  height: 300px;
+  width: 20vw;
+  height: 20vh;
   margin: 30px 0;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  font-size: 36px;
+  width: 800px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 30px;
+  box-shadow: 4px 4px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 100vw;
+  background-color: gray;
+  padding: 0 3vw;
+}
+
+.info {
+  color: white;
+}
+
+h5 {
+  margin-bottom: 3px;
+}
+
+.footercnt {
+  width: 30vw;
+  font-size: 15px;
+}
+
+span {
+  text-align: left;
+  border-bottom: solid 1px black;main2.jpg
+  margin: 5px 0;
+  padding-right: 100%;
 }
