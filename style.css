@@ -42,9 +42,26 @@ h2 {
   padding: 0 3vw;
 }
 
+@media screen and (max-width:860px) {
+  .news{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .contents {
   width: 30vw;
-  height: 30vh;
+  height: 35vh;
+}
+
+@media screen and (max-width:860px) {
+  .contents {
+    width: 97vw;
+    height: 50vh;
+  }
+  .date {
+    text-align: left;
+  }
 }
 
 .view {
@@ -59,8 +76,14 @@ p {
 
 .introduction {
   display: flex;
-  padding: 0 50px;
+  padding: 0 3vw;
   justify-content: space-between;
+}
+
+@media screen and (max-width:860px) {
+  .introduction{
+    flex-direction: column;
+  }
 }
 
 .main {
@@ -69,6 +92,14 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width:860px) {
+  .main {
+    width: 97vw;
+    height: 60vh;
+  }
+}
+
 
 .prf {
   width: 20vw;
@@ -82,10 +113,31 @@ p {
   margin: 0 auto 30px;
 }
 
+@media screen and (max-width:860px) {
+  .man{
+    width: 51vw;
+    height: 51vh;
+    padding: 0 23vw;
+  }
+  .prf {
+    width: 97vw;
+  }
+}
+
 .pic {
   width: 20vw;
   height: 20vh;
   margin: 30px 0;
+}
+
+@media screen and (max-width:860px) {
+  .pic {
+    width: 97vw;
+    height: 60vw;
+  }
+  .prf {
+    text-align: center;
+  }
 }
 
 button {
@@ -94,6 +146,7 @@ button {
   font-size: 36px;
   width: 800px;
   height: 100px;
+  border-style: none;
   background-color: yellow;
   border-radius: 30px;
   box-shadow: 4px 4px;
@@ -117,14 +170,37 @@ h5 {
   margin-bottom: 3px;
 }
 
-.footercnt {
-  width: 30vw;
-  font-size: 15px;
+.footer-cnt {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10vw;
+  justify-content: space-around;
 }
 
 span {
   text-align: left;
-  border-bottom: solid 1px black;main2.jpg
+  border-bottom: solid 1px black;
+  font-size: 15px;
   margin: 5px 0;
-  padding-right: 100%;
+}
+
+@media screen and (max-width:860px) {
+  footer {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-cnt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 97vw;
+  }
+  span{
+    border-bottom: none;
+  }
+  button {
+    width: 70vw;
+  }
 }
